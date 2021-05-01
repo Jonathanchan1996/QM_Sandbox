@@ -1,0 +1,29 @@
+# ELEC5210 Final Project
+## Chan Chak Lam Jonathan
+### May 03, 2021
+
+Grover's search algorithm 
+
+
+
+To generate an oracle
+first, an oracle is needed from the 
+$
+f(x) =
+\left\{\begin{matrix}
+ -1 & Desired 
+ \\
+ 1 & Otherwise
+\end{matrix}\right.
+$
+
+Which is a diagonal matrix and the searchers cannot access to this information.  
+$
+O(x)=\begin{bmatrix}
+(-1)^{f(0)} &0  & \cdots & 0\\ 
+0 &  (-1)^{f(1)}&  & 0\\ 
+\vdots  &  &  \ddots & \vdots \\ 
+0 & 0 & \cdots & (-1)^{f(n)}
+\end{bmatrix}
+$
+
