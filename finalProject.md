@@ -11,7 +11,7 @@ first, an oracle is needed from the
 $
 f(x) =
 \left\{\begin{matrix}
- -1 & Desired 
+ -1 & Winner  
  \\
  1 & Otherwise
 \end{matrix}\right.
