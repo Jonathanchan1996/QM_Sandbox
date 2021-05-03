@@ -4,10 +4,15 @@
 
 Grover's search algorithm 
 
+$
+Iteration = \sqrt{\frac{N}{M}} 
+$
+where $M$ is the number of winner(s)
 
 
 To generate an oracle
 first, an oracle is needed from the 
+
 $
 f(x) =
 \left\{\begin{matrix}
@@ -25,5 +30,11 @@ O(x)=\begin{bmatrix}
 \vdots  &  &  \ddots & \vdots \\ 
 0 & 0 & \cdots & (-1)^{f(n)}
 \end{bmatrix}
+$
+
+
+
+$
+O\ket{X_n}=(-1)^{f(n)}\ket{X_n}
 $
 
