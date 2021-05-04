@@ -16,9 +16,9 @@ first, an oracle is needed from the
 $
 f(x) =
 \left\{\begin{matrix}
- -1 & Winner  
+ 1 & Winner  
  \\
- 1 & Otherwise
+ 0 & Otherwise
 \end{matrix}\right.
 $
 
