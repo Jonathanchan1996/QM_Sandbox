@@ -38,3 +38,4 @@ $
 O\ket{X_n}=(-1)^{f(n)}\ket{X_n}
 $
 
+$P_x={n\choose x}\cdot p^x(1-p)^{n-x}$
